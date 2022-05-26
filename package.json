@@ -1,0 +1,41 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krissisp/lessons.git"
+  },
+  "author": "Kristina Palenykh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krissisp/lessons/issues"
+  },
+  "homepage": "https://github.com/Krissisp/lessons#readme",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "@types/sequelize": "^4.28.13",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cls-hooked": "^4.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mocha": "^10.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
